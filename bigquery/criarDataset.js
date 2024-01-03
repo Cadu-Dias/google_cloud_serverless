@@ -3,7 +3,7 @@ const instance = new BigQuery()
 
 async function criarDataset() {
     const [datasets] = await instance.getDatasets() 
-    const nomeDataset = 'forumAlura'
+    const nomeDataset = 'Coloque o nome do dataset'
     const datasetsFiltrados = datasets.filter(function (datasetAtual) {
         return datasetAtual.id === nomeDataset
     })

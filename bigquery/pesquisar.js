@@ -10,7 +10,7 @@ module.exports = async function pesquisar (filtro) {
         opcoes.query = `${opcoes.query} WHERE ${filtro}`
     }
 
-    const tabela = instance.dataset('forumAlura').table('atividades')
+    const tabela = instance.dataset('Coloque o nome do dataset').table('Coloque o nome da tabela do dataset')
     const [trabalho] = await tabela.createQueryJob(opcoes)
     const [resultados] = await trabalho.getQueryResults()
     return resultados

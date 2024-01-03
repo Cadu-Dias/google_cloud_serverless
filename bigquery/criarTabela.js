@@ -2,9 +2,9 @@ const BigQuery = require("@google-cloud/bigquery").BigQuery
 const instance = new BigQuery()
 
 async function criarTabela() {
-    const dataset = instance.dataset('forumAlura');  
+    const dataset = instance.dataset('Coloque o nome do dataset');  
     const [tabelas] = await dataset.getTables();
-    const nomeTabela = 'atividades';
+    const nomeTabela = 'Coloque o nome da tabela do dataset';
     const tabelasEncontradas = tabelas.filter(function (tabelaAtual) {
         return tabelaAtual.id === nomeTabela
     })
@@ -14,6 +14,8 @@ async function criarTabela() {
         return 
     }
 
+
+    //Variável contendo as colunas da tabela
     const estrutura = [
         {
             name: 'data_criacao_atividade',
