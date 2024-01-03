@@ -1,0 +1,22 @@
+{
+  "name": "curso-serverless",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "serverless.com",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-google-cloudfunctions": "^3.1.1"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^4.7.0",
+    "@google-cloud/pubsub": "^1.7.1",
+    "basic-auth": "^2.0.1",
+    "dotenv": "^16.3.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0"
+  }
+}
