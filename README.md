@@ -7,3 +7,10 @@
   - Pub/Sub
   - IAM
 
+#### Caso for querer testar a API, num aplicativo de requisições, como o Postman, insira a seguinte URL, os dados de AUTHORIZATION do tipo Basic AUTH e faça uma requisição de POST:
+- http://34.29.75.11
+- USERNAME: forum-curso-serverless
+- PASSWORD: senhasupersecreta
+
+#### A API pode não estar funcionando no futuro, pois o projeto no Google Cloud será apagado
+
