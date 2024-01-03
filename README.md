@@ -12,5 +12,5 @@
 - USERNAME: forum-curso-serverless
 - PASSWORD: senhasupersecreta
 
-#### A API pode não estar funcionando no futuro, pois o projeto no Google Cloud será apagado
+#### A API não estará funcionando no futuro, pois o projeto no Google Cloud será apagado
 
